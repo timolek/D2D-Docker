@@ -16,4 +16,4 @@ The .rdf files of the website are placed into a directory called data which is u
 
 When everything is running with docker-compose up, the website can be found on localhost:8000/web/
 
-This repository contains a helloworld example in the data folder in which the website data should be found according to the docker-compose file.
+This repository contains a fully working "Hello World" example in the data folder, this is the folder in which the website data should be place according to the included docker-compose file.
