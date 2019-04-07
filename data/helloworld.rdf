@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:d2d="http://rdfns.org/d2d/" >
+
+
+
+  <d2d:Document rdf:about="" d2d:title="Data 2 Documents - Hello World!"
+                            d2d:charset="utf-8"
+                            d2d:generator="Data 2 Documents"
+                            d2d:keywords="d2d RDF Linked Data Document">
+
+    <d2d:hasArticle>
+      <d2d:BasicSection>  <!-- 'mad' is short for My Article Definition -->
+
+        <d2d:bsHeader>
+          Hello World!
+        </d2d:bsHeader>
+
+        <d2d:bsSubheader>
+          A basic d2d web document example
+        </d2d:bsSubheader>
+
+        <d2d:bsContent>
+          This example consists of one 'document' containing one 'article'; an article
+          created specifically for this example (this text). It uses one 'Article
+          Definition' that defines the composition of this article.
+        </d2d:bsContent>
+
+        <d2d:bsFooter>
+          <![CDATA[
+            This example was created by Niels Ockeloen on March 19<sup>th</sup> 2019.
+          ]]>
+        </d2d:bsFooter>
+
+      </d2d:BasicSection>
+    </d2d:hasArticle>
+
+  </d2d:Document>
+</rdf:RDF>

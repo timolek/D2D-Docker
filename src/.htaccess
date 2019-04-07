@@ -1,0 +1,13 @@
+Options FollowSymLinks
+
+RewriteEngine On
+# Reroute all request to the main d2d_portal.php script,except for requests targeted directly at specific file extensions.
+# Adopt the rederect rules to any alternative location of the d2d_system directory.
+
+RewriteCond %{PATH_INFO} !^/d2d_system/
+RewriteRule !\.(gif|jpg|png|css|mp3|htm|pdf|php|asp|aspx|jsp|cgi|zip|js|html|rdf|ttl|xml|rss|nt|ico|xhtml|xlsx)$ /d2d_system/d2d_portal.php [L]
+
+
+
+
+
