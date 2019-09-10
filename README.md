@@ -1,4 +1,4 @@
-# Docker container for the Data 2 Documents project - WORK IN PROGRESS
+# Docker container for the Data 2 Documents project 
 
 For more information about Data 2 Documents visit the project website: http://data2documents.org
 
